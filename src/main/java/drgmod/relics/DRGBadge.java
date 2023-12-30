@@ -1,5 +1,6 @@
 package drgmod.relics;
 
+import basemod.abstracts.CustomSavable;
 import basemod.interfaces.StartActSubscriber;
 import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.actions.common.SelectCardsInHandAction;
@@ -35,7 +36,7 @@ import jdk.nashorn.internal.runtime.Debug;
 
 import static drgmod.MinerMain.makeID;
 
-public class DRGBadge extends BaseRelic {
+public class DRGBadge extends BaseRelic implements CustomSavable<Integer> {
     private static final String NAME = "DRGBadge"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
     private static final RelicTier RARITY = RelicTier.STARTER; //The relic's rarity.
@@ -266,4 +267,20 @@ public class DRGBadge extends BaseRelic {
     public String getUpdatedDescription(){
         return DESCRIPTIONS[10];
     }
+
+    @Override
+    public Integer onSave() {
+        return this.counter;
+    }
+
+    @Override
+    public void onLoad(Integer integer) {
+        if (integer == null){
+            generateBiome();
+        }
+        this.counter = integer;
+        modifyDescriptions();
+    }
+
+
 }

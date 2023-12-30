@@ -29,7 +29,6 @@ public class SupercoolingChamber extends BaseCard {
         super(ID, info);
         setDamage(DAMAGE);
         setMagic(MAGIC);
-//        setExhaust(true);
         this.misc = DAMAGE;
     }
 
@@ -44,15 +43,7 @@ public class SupercoolingChamber extends BaseCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         returnToHand = false;
-//        addToBot(new SupercoolingAction(p, m, new DamageInfo(p, this.damage, this.damageTypeForTurn), SCALING, makeStatEquivalentCopy()));
         addToBot(new SupercoolingAction(p, m, new DamageInfo(p, this.damage, this.damageTypeForTurn), magicNumber, this));
-//        addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL)));
-//        addToBot(new IncreaseMiscAction(uuid, misc, magicNumber));
-//        setDamage(damage + misc);
-//        if ((m.isDying || m.currentHealth <= 0) && !m.halfDead && !m.hasPower("Minion")){
-//            addToBot(new ModifyDamageAction(this.uuid, this.magicNumber));
-//            d
-//        }
     }
 
     @Override

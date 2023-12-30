@@ -17,7 +17,7 @@
     "#yDense #yBiozone: At the start of combat, spawn a weak enemy. At the start of your turn, add a copy of a card in your hand with #yExhaust and #yEthereal.",
     "#yGlacial #yStrata: At the start of your turn, apply #b1 #yFreeze to all characters.",
     "#yHollow #yBough: Start combat #b3 #yThorns. All enemies start combat with #b1 #yThorns.",
-    "#yAzure #yWeald: Heal #b2 after combat. All enemies start combat with #b3 #yRegen.",
+    "#yAzure #yWeald: Heal #b2 after combat. All enemies start combat with #b2 #yRegen.",
     "#yMagma #yCore: At the start of your turn, apply #b1 #yBurn to all characters.",
     "#ySandblasted #yCorridors: Discard #b2 cards then draw #b2 cards at the start of your turn.",
     "Changes #yBiomes when you change Acts."

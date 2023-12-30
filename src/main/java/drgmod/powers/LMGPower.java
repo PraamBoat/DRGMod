@@ -41,8 +41,11 @@ public class LMGPower extends BasePower implements CloneablePowerInterface {
     @Override
     public void onApplyPower(AbstractPower power, AbstractCreature target, AbstractCreature source) {
         super.onApplyPower(power, target, source);
-        if (power.ID == MineralPower.POWER_ID){
+        if (power.ID == MineralPower.POWER_ID && (!AbstractDungeon.getMonsters().areMonstersBasicallyDead())){
             AbstractMonster m = AbstractDungeon.getRandomMonster();
+            if (m.isDying || m.halfDead){
+                m = AbstractDungeon.getRandomMonster(m);
+            }
             addToBot(new DamageAction(m, new DamageInfo(this.owner, this.amount, DamageInfo.DamageType.THORNS)));
         }
     }

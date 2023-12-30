@@ -50,7 +50,7 @@ public class OverchargedPickaxe extends BaseCard {
         addToBot(new DamageAllEnemiesAction(p, damage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         for (AbstractMonster k: AbstractDungeon.getMonsters().monsters){
             if (!k.isDying && k.currentHealth > 0 && !k.halfDead){
-                addToBot(new ApplyPowerAction(k, p, new ShockPower(m, magicNumber)));
+                addToBot(new ApplyPowerAction(k, p, new ShockPower(k, magicNumber)));
             }
         }
     }

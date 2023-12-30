@@ -159,7 +159,7 @@
   },
   "${modID}:BRT7BurstFireGun": {
     "NAME": "BRT7 Burst Fire Gun",
-    "DESCRIPTION": "{@@}Deal !D! damage 3 times. NL The next !M! Attack{!Upgrades!|1=s} you play cost 0."
+    "DESCRIPTION": "{@@}Deal !D! damage 3 times. NL The next {!Upgrades!|1=2} Attack{!Upgrades!|1=s} you play cost 0."
   },
   "${modID}:ArmskoreCoilGun": {
     "NAME": "Armskore Coil Gun",
@@ -258,7 +258,7 @@
   },
   "${modID}:SupercoolingChamber": {
     "NAME": "Supercooling Chamber",
-    "DESCRIPTION": "Deal !D! damage. NL If Fatal, increase this card's damage by !M! and return this card to your hand. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, PERMANENTLY increase this card's damage by !M! and return this card to your hand. NL Exhaust."
   },
   "${modID}:BulletHell": {
     "NAME": "Bullet Hell",
@@ -274,7 +274,7 @@
   },
   "${modID}:BloodyCoolDrills": {
     "NAME": "Bloody Cold Drills",
-    "DESCRIPTION": "Pickaxe. NL Deal !D! damage !M! times. NL ${modID}:Freeze affects this card 2 times."
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage !M! times. NL ${modID}:Freeze affects this card 1.5 times."
   },
   "${modID}:BlackoutStout": {
     "NAME": "Blackout Stout",
@@ -282,7 +282,7 @@
   },
   "${modID}:CoreInfusion": {
     "NAME": "Core Infusion",
-    "DESCRIPTION": "Spend 20 ${modID}:Minerals. NL Randomly apply !M! ${modID}:Burn, ${modID}:Shock, ${modID}:Freeze randomly to all enemies.",
+    "DESCRIPTION": "Spend 20 ${modID}:Minerals. NL Randomly apply !M! ${modID}:Burn, ${modID}:Shock, ${modID}:Freeze to all enemies.",
     "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
   },
   "${modID}:AbyssBar": {
@@ -295,7 +295,7 @@
   },
   "${modID}:ShieldLink": {
     "NAME": "Shield Link",
-    "DESCRIPTION": "For up to !M! damage, when you receive damage, lose ${modID}:Minerals equal to the amount instead."
+    "DESCRIPTION": "When you receive damage, lose ${modID}:Minerals equal to the amount instead. Up to !M! damage can be absorbed."
   },
   "${modID}:DrunkForm": {
     "NAME": "Drunk Form",
@@ -334,7 +334,7 @@
   },
   "${modID}:Belch": {
     "NAME": "Belch",
-    "DESCRIPTION": "Enemy loses Strength to ${modID}:Intoxication. NL Exhaust."
+    "DESCRIPTION": "Enemy loses Strength equal to ${modID}:Intoxication. NL Exhaust."
   },
   "${modID}:DeepDive": {
     "NAME": "Deep Dive",

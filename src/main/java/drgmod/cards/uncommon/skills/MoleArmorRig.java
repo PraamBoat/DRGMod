@@ -11,7 +11,7 @@ import drgmod.powers.*;
 import drgmod.util.CardStats;
 
 public class MoleArmorRig extends BaseCard {
-    private static final int BLOCK = 6;
+    private static final int BLOCK = 3;
     private static final int UPG_BLOCK = 2;
     private static final int MINERAL_GAIN = 10;
 

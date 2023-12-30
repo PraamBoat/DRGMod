@@ -4,7 +4,7 @@
     "DESCRIPTIONS": [
       "I: Draw #b1 card at the start of you turn, but lose #b2 #yBlock at the end of your turn.",
       " NL II: Gain #b2 Strength, lose #b2 Dexterity.",
-      " NL III: The first card you draw each turn costs #b0 [E]. Permanent #yVulnerable.",
+      " NL III: The first card you draw each turn costs #b0 [E] Permanent #yVulnerable.",
       " NL IV: Permanent #yConfusion, all Attacks target random enemies.",
       " NL V: Every other card is played twice. #rDie next turn.",
       "Gains new effects as #yIntoxication increases."
