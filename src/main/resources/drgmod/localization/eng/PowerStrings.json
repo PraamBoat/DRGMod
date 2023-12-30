@@ -1,0 +1,173 @@
+{
+  "${modID}:Intoxication": {
+    "NAME": "Intoxication",
+    "DESCRIPTIONS": [
+      "I: Draw #b1 card at the start of you turn, but lose #b2 #yBlock at the end of your turn.",
+      " NL II: Gain #b2 Strength, lose #b2 Dexterity.",
+      " NL III: The first card you draw each turn costs #b0 [E]. Permanent #yVulnerable.",
+      " NL IV: Permanent #yConfusion, all Attacks target random enemies.",
+      " NL V: Every other card is played twice. #rDie next turn.",
+      "Gains new effects as #yIntoxication increases."
+    ]
+  },
+  "${modID}:Burn": {
+    "NAME": "Burn",
+    "DESCRIPTIONS": [
+      "At the end of your turn, take #b",
+      " damage, then reduce #yBurn by half. At the end of its turn, apply #b",
+      "At the start of its turn, take #b",
+      " #yAfterburn to all other enemies.",
+      " damage, then reduce #yBurn by half."
+    ]
+  },
+  "${modID}:Freeze": {
+    "NAME": "Freeze",
+    "DESCRIPTIONS": [
+      "You take #b",
+      " extra damage from #yAttacks.",
+      "The creature takes #b"
+    ]
+  },
+  "${modID}:Shock": {
+    "NAME": "Shock",
+    "DESCRIPTIONS": [
+      "When you attack this creature, all other enemies take #b",
+      " damage."
+    ]
+  },
+  "${modID}:Afterburn": {
+    "NAME": "Afterburn",
+    "DESCRIPTIONS": [
+      "At the start of its turn, take #b",
+      " damage, then remove #yAfterburn."
+    ]
+  },
+  "${modID}:Minerals": {
+    "NAME": "Minerals",
+    "DESCRIPTIONS": [
+      "Minerals are used for certain cards. You currently have #b",
+      " #yMinerals. (80 max)",
+      " #yMineral. (80 max)"
+    ]
+  },
+  "${modID}:FoxPower": {
+    "NAME": "Fox Armor",
+    "DESCRIPTIONS": [
+      "When attacked, apply #b",
+      " #yShock to attackers."
+    ]
+  },
+  "${modID}:PotsOGold": {
+    "NAME": "Pots O' Gold",
+    "DESCRIPTIONS": [
+      "When you play a card, gain #b",
+      " #yMinerals."
+    ]
+  },
+  "${modID}:RedRockPower": {
+    "NAME": "Red Rock Blaster",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " less damage from all sources this turn."
+    ]
+  },
+  "${modID}:DarkMorkitePower": {
+    "NAME": "Dark Morkite",
+    "DESCRIPTIONS": [
+      "Gain double #yMinerals for #b",
+      " turns."
+    ]
+  },
+  "${modID}:BornReadyPower": {
+    "NAME": "Born Ready",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yBlock for each card in your discard pile."
+    ]
+  },
+  "${modID}:BugThingPower": {
+    "NAME": "It's a Bug Thing",
+    "DESCRIPTIONS": [
+      "When you play an Attack, gain #b",
+      " #yMineral.",
+      " #yMinerals."
+    ]
+  },
+  "${modID}:DeepPocketsPower": {
+    "NAME": "Deep Pockets",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yMinerals."
+    ]
+  },
+  "${modID}:SecondWindPower": {
+    "NAME": "Second Wind",
+    "DESCRIPTIONS": [
+      "When you play an Intoxication card, gain #b",
+      " Block."
+    ]
+  },
+  "${modID}:StrongArmPower": {
+    "NAME": "Strong Arm",
+    "DESCRIPTIONS": [
+      "#yPickaxe cards deal #b",
+      " additional damage."
+    ]
+  },
+  "${modID}:InsulationPower": {
+    "NAME": "Elemental Insulation",
+    "DESCRIPTIONS": [
+      "When attacked, apply #b",
+      " #yBurn, #yFreeze, and #yShock back."
+    ]
+  },
+  "${modID}:VampirePower": {
+    "NAME": "Vampire",
+    "DESCRIPTIONS": [
+      "On a #yFatal #yPickaxe Attack, heal #b",
+      "."
+    ]
+  },
+  "${modID}:BlackoutPower": {
+    "NAME": "Blackout Stout",
+    "DESCRIPTIONS": [
+      "#yIntoxication cannot decrease."
+    ]
+  },
+  "${modID}:LMGPower": {
+    "NAME": "LMG Gun Platform",
+    "DESCRIPTIONS": [
+      "When you gain #yMinerals, deal #b",
+      " damage to a random enemy."
+    ]
+  },
+  "${modID}:ShieldPower": {
+    "NAME": "Shield Link",
+    "DESCRIPTIONS": [
+      "For up to #b",
+      " damage, when you would receive damage, lose #yMinerals equal to the amount instead."
+    ]
+  },
+  "${modID}:DrunkFormPower": {
+    "NAME": "Drunk Form",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yIntoxication at the start of your turn. No negative penalties from #yIntoxication except #yIntoxication #yV."
+    ]
+  },
+  "${modID}:SeeYouPower": {
+    "NAME": "See You In Hell",
+    "DESCRIPTIONS": [
+      "When you #yAttack an enemy, deal #b",
+      " extra damage for each debuff the enemy has."
+    ]
+  },
+  "${modID}:IronWillPower": {
+    "NAME": "Iron Will",
+    "DESCRIPTIONS": [
+      "When you play an Attack, gain #b",
+      " Block and increase Block gained by #b",
+      ". Resets on non-Attack played."
+    ]
+  }
+}

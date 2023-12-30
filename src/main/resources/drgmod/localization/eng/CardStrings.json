@@ -1,0 +1,343 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:AmmoStrike": {
+    "NAME": "Ammo Strike",
+    "DESCRIPTION": "Spend !M! ${modID}:Ammo. Deal !D! damage. ",
+    "EXTENDED_DESCRIPTION": ["Not enough Ammo!"]
+  },
+  "${modID}:AmmoDefend": {
+    "NAME": "Ammo Defend",
+    "DESCRIPTION": "Gain !B! Block. Gain !M! ${modID}:Ammo."
+  },
+  "${modID}:MineMinerals": {
+    "NAME": "Mine Minerals",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! ${modID}:Minerals."
+  },
+  "${modID}:Bosco": {
+    "NAME": "APD-B317 “Bosco”",
+    "DESCRIPTION": "Deal !D! x 2 damage. NL Apply !M! Vulnerable."
+  },
+  "${modID}:DwarfDefend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:DwarfStrike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:PickaxeSwing": {
+    "NAME": "Pickaxe Swing",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage. NL Gain !M! ${modID}:Minerals."
+  },
+  "${modID}:Shockwave": {
+    "NAME": "Shockwave",
+    "DESCRIPTION": "Pickaxe. Deal !D! damage to all enemies.  NL Gain !M! ${modID}:Minerals per enemy hit."
+  },
+  "${modID}:PowerAttack": {
+    "NAME": "Power Attack",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage. NL Gain !M! ${modID}:Minerals."
+  },
+  "${modID}:CRSPRFlamethrower": {
+    "NAME": "CRSPR Flamethrower",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Burn."
+  },
+  "${modID}:CryoCannon": {
+    "NAME": "Cryo Cannon",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Freeze."
+  },
+  "${modID}:WarthogAuto210": {
+    "NAME": "“Warthog“ Auto 210",
+    "DESCRIPTION": "Use 5 ${modID}:Minerals. NL Deal !D! damage. NL Gain !M! Strength this turn.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:StubbyVolticSMG": {
+    "NAME": "“Stubby” Voltic SMG",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Shock."
+  },
+  "${modID}:ThunderheadHeavyAutocannon": {
+    "NAME": "“Thunderhead” H.A.",
+    "DESCRIPTION": "{@@}Discard up to !M! cards. Deal !D! damage to ALL enemies for each card discarded."
+  },
+  "${modID}:HurricaneGuidedRocketSystem": {
+    "NAME": "“Hurricane” G.R.S.",
+    "DESCRIPTION": "Deal !D! damage and !M! ${modID}:Burn to a random enemy 4 times."
+  },
+  "${modID}:Drak25PlasmaCarbine": {
+    "NAME": "Drak-25 P.C.",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL Apply !M! ${modID}:Shock. NL Draw a card for every 2 debuffs the enemy has."
+  },
+  "${modID}:DeepcoreGK2": {
+    "NAME": "Deepcore GK2",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards."
+  },
+  "${modID}:PlatformGun": {
+    "NAME": "Platform Gun",
+    "DESCRIPTION": "Use 5 ${modID}:Minerals. NL Gain !B! Block. NL Gain !M! Block next turn.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:ZiplineLauncher": {
+    "NAME": "Zipline Launcher",
+    "DESCRIPTION": "Put a card from your discard pile on top of your draw pile. NL Gain !B! Block."
+  },
+  "${modID}:ReinforcedPowerDrills": {
+    "NAME": "R. Power Drills",
+    "DESCRIPTION": "Gain !${modID}:mine! ${modID}:Minerals. NL Apply !M! ${modID}:Burn to all enemies. NL Gain !B! Block."
+  },
+  "${modID}:MorkiteVein": {
+    "NAME": "Morkite Vein",
+    "DESCRIPTION": "Gain !M! ${modID}:Minerals. NL Gain !B! Block."
+  },
+  "${modID}:NitraVein": {
+    "NAME": "Nitra Vein",
+    "DESCRIPTION": "{@@}Gain !${modID}:card! ${modID}:Minerals. NL Draw !M! card{!M!|>1=s}."
+  },
+  "${modID}:GlyphidSlammer": {
+    "NAME": "Glyphid Slammer",
+    "DESCRIPTION": "${modID}:Intoxication. NL Gain !M! Vigor."
+  },
+  "${modID}:OilyOaf": {
+    "NAME": "Oily Oaf",
+    "DESCRIPTION": "{@@}{!Upgrades!|1=Retain. NL } ${modID}:Intoxication. "
+  },
+  "${modID}:LeafLoverSpecial": {
+    "NAME": "Leaf Lover's Special",
+    "DESCRIPTION": "Gain !B! Block. NL Remove all ${modID}:Intoxication."
+  },
+  "${modID}:GrapplingHook": {
+    "NAME": "Grappling Hook",
+    "DESCRIPTION": "{@@}Innate. NL Draw 1 card for each enemy. {!Upgrades!|1=NL Gain !B! Block.} NL Exhaust."
+  },
+  "${modID}:BarbedDrills": {
+    "NAME": "Barbed Drills",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage !${modID}:NumAttacks! times. NL Gain !M! ${modID}:Minerals."
+  },
+  "${modID}:OverchargedPickaxe": {
+    "NAME": "Overcharged Pickaxe",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage and apply !M! ${modID}:Shock to ALL enemies."
+  },
+  "${modID}:BetterWeightBalance": {
+    "NAME": "Better Weight Balance",
+    "DESCRIPTION": "{@@}Pickaxe. NL Deal !D! damage. NL Double current ${modID}:Minerals. {!Upgrades!|0=NL Exhaust.}"
+  },
+  "${modID}:DizzySwing": {
+    "NAME": "Dizzy Swing",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage for each level of ${modID}:Intoxication you have."
+  },
+  "${modID}:JuryRiggedShotgun": {
+    "NAME": "Jury Rigged Boomstick",
+    "DESCRIPTION": "Deal !D! damage. NL Discard !M! cards and draw !M! cards."
+  },
+  "${modID}:ZhukovNUK17": {
+    "NAME": "Zhukov NUK17",
+    "DESCRIPTION": "Deal !D! x 2 damage. NL Apply !M! ${modID}:Shock and ${modID}:Freeze."
+  },
+  "${modID}:NBoltsharkX80": {
+    "NAME": "N. Boltshark X-80",
+    "DESCRIPTION": "{@@}Deal !M! damage for each card in your hand. {!Location!|0=NL (Deals !D! damage).}"
+  },
+  "${modID}:BreachCutter": {
+    "NAME": "Breach Cutter",
+    "DESCRIPTION": "Use !M! ${modID}:Minerals. NL Deal !D! damage. NL If Fatal, apply ${modID}:Burn to all enemies equal to half of the target's max HP.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:ShardDiffractor": {
+    "NAME": "Shard Diffractor",
+    "DESCRIPTION": "{@@} Deal damage equal to the current Mineral count. {!Location!|0=NL (Deals !D! damage).} NL Exhaust."
+  },
+  "${modID}:BulldogHeavyRevolver": {
+    "NAME": "“Bulldog” H. Revolver",
+    "DESCRIPTION": "Deal !D! damage. NL Discard up to 2 cards and deal !D! damage for each."
+  },
+  "${modID}:BRT7BurstFireGun": {
+    "NAME": "BRT7 Burst Fire Gun",
+    "DESCRIPTION": "{@@}Deal !D! damage 3 times. NL The next !M! Attack{!Upgrades!|1=s} you play cost 0."
+  },
+  "${modID}:ArmskoreCoilGun": {
+    "NAME": "Armskore Coil Gun",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, transfer the enemy's debuffs to a random enemy. NL Exhaust."
+  },
+  "${modID}:Subata120": {
+    "NAME": "Subata 120",
+    "DESCRIPTION": "{@@}Deal !D! damage. NL If the enemy has ${modID}:Freeze, ${modID}:Shock, or ${modID}:Burn, gain [E] {!Upgrades!|1=[E] }. NL Exhaust."
+  },
+  "${modID}:ColetteWaveCooler": {
+    "NAME": "Colette Wave Cooker",
+    "DESCRIPTION": "{@@}Deal damage equal to {!Upgrades!|1=DOUBLE }the enemy's total debuffs. {!Location!|0=NL (Deals !D! damage).} NL Exhaust."
+  },
+  "${modID}:ExperimentalPlasmaCharger": {
+    "NAME": "E. Plasma Charger",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! ${modID}:Minerals."
+  },
+  "${modID}:MULE": {
+    "NAME": "M.U.L.E ”Molly”",
+    "DESCRIPTION": "{@@}Use 25 ${modID}:Minerals. NL Gain [E] [E] {!M!|3=[E]}.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:Drilldozer": {
+    "NAME": "Drilldozer “Doretta”",
+    "DESCRIPTION": "{@@}{!Upgrades!|1=Innate. NL} Gain !M! ${modID}:Minerals. NL Add a card from your deck to your hand. It costs [E] less this turn."
+  },
+  "${modID}:FoxArmorRig": {
+    "NAME": "“Fox” Armor Rig",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 2 cards. NL Whenever you are attacked this turn, apply !M! ${modID}:Shock back."
+  },
+  "${modID}:MoleArmorRig": {
+    "NAME": "“Mole” Armor Rig",
+    "DESCRIPTION": "{@@}Gain 10 ${modID}:Minerals. NL Gain !B! Block for every 10 ${modID}:Minerals you have. {!Location!|0=NL (Gain !${modID}:blockGain! Block).}"
+  },
+  "${modID}:OwlArmorRig": {
+    "NAME": "“Owl” Armor Rig",
+    "DESCRIPTION": "Use 10 ${modID}:Minerals. NL Gain !B! Block. NL Reduce the cost of a card in your hand by 1.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:BarracudaArmorRig": {
+    "NAME": "“Barracuda” Armor Rig",
+    "DESCRIPTION": "Use 20 ${modID}:Minerals. NL Gain !B! Block. NL Gain !M! Strength.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:SkullCrusherAle": {
+    "NAME": "Skull Crusher Ale",
+    "DESCRIPTION": "${modID}:Intoxication. NL All Attacks cost 1 less this turn. NL Exhaust."
+  },
+  "${modID}:SlayerStout": {
+    "NAME": "Slayer Stout",
+    "DESCRIPTION": "{@@}${modID}:Intoxication. NL Add !M! card{!Upgrades!|1=s} from your deck to your hand. NL Exhaust."
+  },
+  "${modID}:PotsOGold": {
+    "NAME": "Pots O' Gold",
+    "DESCRIPTION": "${modID}:Intoxication. NL Gain !M! ${modID}:Minerals when you play a card this turn. NL Exhaust."
+  },
+  "${modID}:RedRockBlaster": {
+    "NAME": "Red Rock Blaster",
+    "DESCRIPTION": "${modID}:Intoxication. NL When you would lose HP this turn, lose 1 less. NL Exhaust."
+  },
+  "${modID}:DarkMorkite": {
+    "NAME": "Dark Morkite",
+    "DESCRIPTION": "{@@}${modID}:Intoxication. NL Gain double ${modID}:Minerals for !M! turn{!Upgrades!|1=s}. NL Exhaust."
+  },
+  "${modID}:GoldVein": {
+    "NAME": "Gold Vein",
+    "DESCRIPTION": "{@@}Gain !M! ${modID}:Minerals. NL Draw 1 card for every 15 ${modID}:Minerals you have. {!Location!|0=NL (Draw !${modID}:cardDraw! cards).}"
+  },
+  "${modID}:BornReady": {
+    "NAME": "Born Ready",
+    "DESCRIPTION": "At the end of your turn, gain !M! Block for each card in your discard pile."
+  },
+  "${modID}:BugThing": {
+    "NAME": "It's a Bug Thing",
+    "DESCRIPTION": "{@@}When you play an Attack, gain !M! ${modID}:Mineral{!Upgrades!|1=s}."
+  },
+  "${modID}:DeepPockets": {
+    "NAME": "Deep Pockets",
+    "DESCRIPTION": "Gain !M! ${modID}:Minerals at the start of your turn."
+  },
+  "${modID}:SecondWind": {
+    "NAME": "Second Wind",
+    "DESCRIPTION": "When you play a card with ${modID}:Intoxication, gain !M! Block."
+  },
+  "${modID}:StrongArm": {
+    "NAME": "Strong Arm",
+    "DESCRIPTION": "${modID}:Pickaxe cards deal !M! additional damage."
+  },
+  "${modID}:ElementalInsulation": {
+    "NAME": "Elemental Insulation",
+    "DESCRIPTION": "When you are attacked, apply !M! ${modID}:Burn, ${modID}:Freeze, and ${modID}:Shock to the attacker."
+  },
+  "${modID}:Vampire": {
+    "NAME": "Vampire",
+    "DESCRIPTION": "On a Fatal Pickaxe Attack, heal !M!."
+  },
+  "${modID}:SupercoolingChamber": {
+    "NAME": "Supercooling Chamber",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, increase this card's damage by !M! and return this card to your hand. NL Exhaust."
+  },
+  "${modID}:BulletHell": {
+    "NAME": "Bullet Hell",
+    "DESCRIPTION": "{@@}Discard your hand. Deal !D! damage twice for each card discarded. NL {!Location!|0=(Deals !D! damage !M! times).}"
+  },
+  "${modID}:Snowball": {
+    "NAME": "Snowball",
+    "DESCRIPTION": "Deal !D! damage and apply !M! ${modID}:Freeze to ALL enemies."
+  },
+  "${modID}:Executioner": {
+    "NAME": "Executioner",
+    "DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage. NL Deal double damage against Elites and Bosses."
+  },
+  "${modID}:BloodyCoolDrills": {
+    "NAME": "Bloody Cold Drills",
+    "DESCRIPTION": "Pickaxe. NL Deal !D! damage !M! times. NL ${modID}:Freeze affects this card 2 times."
+  },
+  "${modID}:BlackoutStout": {
+    "NAME": "Blackout Stout",
+    "DESCRIPTION": "{@@}Set ${modID}:Intoxication to 5. {!Upgrades!|1=NL Draw !M! cards.} NL ${modID}:Intoxication will not decrease. NL Exhaust."
+  },
+  "${modID}:CoreInfusion": {
+    "NAME": "Core Infusion",
+    "DESCRIPTION": "Spend 20 ${modID}:Minerals. NL Randomly apply !M! ${modID}:Burn, ${modID}:Shock, ${modID}:Freeze randomly to all enemies.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:AbyssBar": {
+    "NAME": "Abyss Bar",
+    "DESCRIPTION": "Add !M! random ${modID}:Intoxication cards to your hand. They cost 0 and Exhaust. NL Exhaust."
+  },
+  "${modID}:LMG": {
+    "NAME": "LMG Gun Platform",
+    "DESCRIPTION": "When you gain ${modID}:Minerals, deal !M! damage to a random enemy."
+  },
+  "${modID}:ShieldLink": {
+    "NAME": "Shield Link",
+    "DESCRIPTION": "For up to !M! damage, when you receive damage, lose ${modID}:Minerals equal to the amount instead."
+  },
+  "${modID}:DrunkForm": {
+    "NAME": "Drunk Form",
+    "DESCRIPTION": "At the start of your turn, gain !M! ${modID}:Intoxication. NL No longer affected by negative ${modID}:Intoxication effects except level V."
+  },
+  "${modID}:SeeYou": {
+    "NAME": "See You In Hell",
+    "DESCRIPTION": "When attacking an enemy, deal !M! extra damage for each debuff they have."
+  },
+  "${modID}:WeRich": {
+    "NAME": "We're Rich!",
+    "DESCRIPTION": "{@@}Unplayable. NL Ethereal. NL At the end of your turn, spend half of current ${modID}:Mineral count and gain Gold equal to that amount. {!Upgrades!|1= NL Gain [E] when drawn.}",
+    "EXTENDED_DESCRIPTION": ["I can't play this card!"]
+  },
+  "${modID}:IronWill": {
+    "NAME": "Iron Will",
+    "DESCRIPTION": "For each Attack you play in a row, gain !M! Block and increase that value by !M!. Resets on non-Attack played."
+  },
+  "${modID}:SatchelCharge": {
+    "NAME": "Satchel Charge",
+    "DESCRIPTION": "Spend !M! ${modID}:Minerals. NL Deal !D! damage to ALL enemies.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:BETC": {
+    "NAME": "BET-C",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:FatBoy": {
+    "NAME": "Fat Boy",
+    "DESCRIPTION": "Spend 40 ${modID}:Minerals. NL Deal !D! damage to ALL enemies. NL Apply !M! ${modID}:Burn to ALL enemies.",
+    "EXTENDED_DESCRIPTION": ["Not enough Minerals!"]
+  },
+  "${modID}:LaserPointer": {
+    "NAME": "Laser Pointer",
+    "DESCRIPTION": "If the enemy intends to attack, apply !M! Weak. Otherwise, apply !M! Vulnerable."
+  },
+  "${modID}:Belch": {
+    "NAME": "Belch",
+    "DESCRIPTION": "Enemy loses Strength to ${modID}:Intoxication. NL Exhaust."
+  },
+  "${modID}:DeepDive": {
+    "NAME": "Deep Dive",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! ${modID}:Minerals. NL Increase ${modID}:Mineral gain by 10."
+  }
+}

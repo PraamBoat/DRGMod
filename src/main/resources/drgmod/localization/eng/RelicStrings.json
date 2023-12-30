@@ -1,0 +1,75 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:DRGBadge": {
+  "NAME": "DRG Badge",
+  "FLAVOR": "Rock and Stone!",
+  "DESCRIPTIONS": [
+    "#yCrystalline #yCaverns: Apply #b1 #yShock to enemies when you attack them, but take #b1 extra #yBlock damage.",
+    "#ySalt #yPits: #yPickaxe cards cost [E] less to play. #yMineral gain is halved.",
+    "#yFungus #yBogs: On a #yFatal #yAttack, all characters gain #b1 #yVulnerable.",
+    "#yRadioactive #yExclusion #yZone: Deal damage to a random enemy equal to #b25% of your #yMineral count at the end of each turn. Whenever you take damage, lose #yMinerals equal to the damage taken.",
+    "#yDense #yBiozone: At the start of combat, spawn a weak enemy. At the start of your turn, add a copy of a card in your hand with #yExhaust and #yEthereal.",
+    "#yGlacial #yStrata: At the start of your turn, apply #b1 #yFreeze to all characters.",
+    "#yHollow #yBough: Start combat #b3 #yThorns. All enemies start combat with #b1 #yThorns.",
+    "#yAzure #yWeald: Heal #b2 after combat. All enemies start combat with #b3 #yRegen.",
+    "#yMagma #yCore: At the start of your turn, apply #b1 #yBurn to all characters.",
+    "#ySandblasted #yCorridors: Discard #b2 cards then draw #b2 cards at the start of your turn.",
+    "Changes #yBiomes when you change Acts."
+    ]
+  },
+  "${modID}:Xenofungus": {
+    "NAME": "Xenofungus",
+    "FLAVOR": "\"Mushroom, mushroom,\" shut it! Get back to work!",
+    "DESCRIPTIONS": [
+      "The first time you discard a card each combat, draw #b1 card."
+    ]
+  },
+  "${modID}:Phazyionite": {
+    "NAME": "Phazyionite",
+    "FLAVOR": "I'm saving up for pants!",
+    "DESCRIPTIONS": [
+      "Gain #b2 #yMinerals at the start of your turn."
+    ]
+  },
+  "${modID}:Plagueheart": {
+    "NAME": "Plagueheart",
+    "FLAVOR": "Don't touch the Rockpox, guys! It's worse than salad!",
+    "DESCRIPTIONS": [
+      "Whenever a #yPickaxe Attack deals unblocked damage, apply #b1 #yPoison."
+    ]
+  },
+  "${modID}:Bittergem": {
+    "NAME": "Bittergem",
+    "FLAVOR": "I told them letting you keep the gold for yourselves was a mistake...",
+    "DESCRIPTIONS": [
+      "Start combat with #b20 #yMinerals."
+    ]
+  },
+  "${modID}:OmmeronHeartstone": {
+    "NAME": "Ommeron Heartstone",
+    "FLAVOR": "An oddly alluring rock(?), and somehow fits in your pocket!",
+    "DESCRIPTIONS": [
+      "Whenever you apply #yBurn, #yFreeze, or #yShock, apply an additional stack."
+    ]
+  },
+  "${modID}:DataRack": {
+    "NAME": "Data Rack",
+    "FLAVOR": "Data about the Spire belonging to a rival company. How are they even here?",
+    "DESCRIPTIONS": [
+      "When you draw #b20 cards, deal #b25 damage to a random enemy."
+    ]
+  },
+  "${modID}:ErrorCube": {
+    "NAME": "ERR://23¤Y%/",
+    "FLAVOR": "I wonder if it is edible!",
+    "DESCRIPTIONS": [
+      "Gain [E] and #b1 #yIntoxication at the start of your turn. #yIntoxication cannot decrease beneath #b3."
+    ]
+  }
+}

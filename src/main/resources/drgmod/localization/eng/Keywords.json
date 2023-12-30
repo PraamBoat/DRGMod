@@ -1,0 +1,64 @@
+[
+  {
+    "PROPER_NAME": "Intoxication",
+    "NAMES": [
+      "intoxication"
+    ],
+    "DESCRIPTION": "Gains new effects at higher levels of Intoxication."
+  },
+  {
+    "PROPER_NAME": "Ammo",
+    "NAMES": [
+      "ammo"
+    ],
+    "DESCRIPTION": "Ammo is spent to use certain cards."
+  },
+  {
+    "PROPER_NAME": "Burn",
+    "NAMES": [
+      "burn",
+      "burned"
+    ],
+    "DESCRIPTION": "Burned creatures take damage at the start of their turn. Each turn, Burn is halved and applies #yAfterburn to all other creatures."
+  },
+  {
+    "PROPER_NAME": "Afterburn",
+    "NAMES": [
+      "afterburn",
+      "afterburned"
+    ],
+    "DESCRIPTION": "Afterburned creatures take damage at the start of their turn, then Afterburn is removed."
+  },
+  {
+    "PROPER_NAME": "Freeze",
+    "NAMES": [
+      "freeze",
+      "frozen"
+    ],
+    "DESCRIPTION": "Frozen creatures take extra Attack damage. Each turn, Freeze is halved."
+  },
+  {
+    "PROPER_NAME": "Shock",
+    "NAMES": [
+      "shock",
+      "shocked"
+    ],
+    "DESCRIPTION": "When a Shocked creature is attacked, other creatures take damage. Each turn, Shock is halved."
+  },
+  {
+    "PROPER_NAME": "Mineral",
+    "NAMES": [
+      "mineral",
+      "minerals",
+      "Minerals"
+    ],
+    "DESCRIPTION": "Minerals are required to use certain cards."
+  },
+  {
+    "PROPER_NAME": "Pickaxe",
+    "NAMES": [
+      "pickaxe"
+    ],
+    "DESCRIPTION": "Pickaxe cards are a certain class of cards."
+  }
+]
